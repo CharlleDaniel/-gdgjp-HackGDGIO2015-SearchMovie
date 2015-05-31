@@ -16,8 +16,7 @@ public class Sinopse extends Activity {
         setContentView(R.layout.sinopse);
         campSinopse=(TextView)findViewById(R.id.campSinopse);
         filme=showFilme.filme;
-
-         //Altera Campo da sinopse
+        //Altera Campo da sinopse
         campSinopse.setText(filme.getSinopseDoFilme());
 
 
