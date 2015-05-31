@@ -17,6 +17,5 @@ public class Sinopse extends Activity{
         filme=showFilme.filme;
 
         campSinopse.setText(filme.getSinopseDoFilme());
-
     }
 }
