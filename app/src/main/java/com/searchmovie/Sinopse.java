@@ -1,15 +1,13 @@
 package com.searchmovie;
 
-<<<<<<< HEAD
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Sinopse extends Activity {
-    TextView campSinopse;
-    protected Filme filme;
 
+public class Sinopse extends Activity{
+    TextView campSinopse;
+    private Filme filme;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +15,8 @@ public class Sinopse extends Activity {
         setContentView(R.layout.sinopse);
         campSinopse=(TextView)findViewById(R.id.campSinopse);
         filme=showFilme.filme;
-        //Altera Campo da sinopse
+
         campSinopse.setText(filme.getSinopseDoFilme());
 
-
     }
-=======
-/**
- * Created by CharlleNot on 30/05/2015.
- */
-public class Sinopse {
->>>>>>> origin/master
 }

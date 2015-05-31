@@ -3,19 +3,9 @@ package com.searchmovie;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-<<<<<<< HEAD
 import android.widget.ImageView;
 
 
-=======
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-/**
- * Created by CharlleNot on 30/05/2015.
- */
->>>>>>> origin/master
 public class Avaliar extends Activity implements View.OnClickListener {
 
     private ImageView ok;
@@ -43,7 +33,6 @@ public class Avaliar extends Activity implements View.OnClickListener {
         star4=(ImageView)findViewById(R.id.s4);
         star5=(ImageView)findViewById(R.id.s5);
 
-<<<<<<< HEAD
         star1.setOnClickListener(this);
         star2.setOnClickListener(this);
         star3.setOnClickListener(this);
@@ -51,15 +40,12 @@ public class Avaliar extends Activity implements View.OnClickListener {
         star5.setOnClickListener(this);
         ok.setOnClickListener(this);
 
-=======
->>>>>>> origin/master
 
 
 
     }
 
 
-<<<<<<< HEAD
     @Override
     public void onClick(View view) {
         if(view.getId()==star1.getId()){
@@ -101,12 +87,5 @@ public class Avaliar extends Activity implements View.OnClickListener {
             finish();
         }
 
-=======
-
-    public void onClick(View view) {
-        if(view.getId()==star1.getId()){
-            star1.setImageResource(android.R.drawable.btn_star_big_on);
-        }
->>>>>>> origin/master
     }
 }

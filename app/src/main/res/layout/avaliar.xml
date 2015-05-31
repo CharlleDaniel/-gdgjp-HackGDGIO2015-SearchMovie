@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
     android:layout_width="match_parent" android:layout_height="match_parent"
-<<<<<<< HEAD
     android:id="@+id/llContainer"
     android:background="#ffffffff">
 
@@ -27,31 +26,17 @@
             android:layout_alignParentStart="true"
             android:layout_marginLeft="5dp" />
     </RelativeLayout>
-=======
-    android:background="#ffd01615"
-    android:id="@+id/llContainer">
->>>>>>> origin/master
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/relativeLayout2"
-<<<<<<< HEAD
         android:layout_below="@+id/relativeLayout4"
         android:layout_alignParentStart="true"
         android:layout_marginTop="30dp">
 
         <ImageView
             android:layout_width="35dp"
-=======
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp">
-
-        <ImageView
-            android:layout_width="30dp"
->>>>>>> origin/master
             android:layout_height="wrap_content"
             android:id="@+id/s5"
             android:src="@android:drawable/btn_star_big_off"
@@ -61,11 +46,7 @@
             android:clickable="false" />
 
         <ImageView
-<<<<<<< HEAD
             android:layout_width="35dp"
-=======
-            android:layout_width="30dp"
->>>>>>> origin/master
             android:layout_height="wrap_content"
             android:id="@+id/s4"
             android:src="@android:drawable/btn_star_big_off"
@@ -75,29 +56,17 @@
             android:clickable="false" />
 
         <ImageView
-<<<<<<< HEAD
             android:layout_width="35dp"
-=======
-            android:layout_width="30dp"
->>>>>>> origin/master
             android:layout_height="wrap_content"
             android:id="@+id/s1"
             android:src="@android:drawable/btn_star_big_off"
             android:layout_alignParentTop="true"
             android:layout_toLeftOf="@+id/s2"
             android:layout_toStartOf="@+id/s2"
-<<<<<<< HEAD
             android:clickable="false" />
 
         <ImageView
             android:layout_width="35dp"
-=======
-            android:clickable="true"
-            android:onClick="onClick" />
-
-        <ImageView
-            android:layout_width="30dp"
->>>>>>> origin/master
             android:layout_height="wrap_content"
             android:id="@+id/s3"
             android:src="@android:drawable/btn_star_big_off"
@@ -106,11 +75,7 @@
             android:clickable="false" />
 
         <ImageView
-<<<<<<< HEAD
             android:layout_width="35dp"
-=======
-            android:layout_width="30dp"
->>>>>>> origin/master
             android:layout_height="wrap_content"
             android:id="@+id/s2"
             android:src="@android:drawable/btn_star_big_off"
@@ -121,39 +86,12 @@
 
     </RelativeLayout>
 
-<<<<<<< HEAD
-=======
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rate"
-        android:id="@+id/textView2"
-        android:textColor="#ffffffff"
-        android:textSize="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="5dp" />
-
->>>>>>> origin/master
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:id="@+id/ok"
         android:src="@drawable/ok2"
         android:layout_below="@+id/relativeLayout2"
-<<<<<<< HEAD
-=======
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_alignParentBottom="true"
->>>>>>> origin/master
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

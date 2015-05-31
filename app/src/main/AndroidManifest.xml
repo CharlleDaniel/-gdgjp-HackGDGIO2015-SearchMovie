@@ -32,14 +32,11 @@
             android:label="Avaliar" >
 
         </activity>
-<<<<<<< HEAD
         <activity
             android:name=".Sinopse"
             android:label="Sinopse" >
 
         </activity>
-=======
->>>>>>> origin/master
 
     </application>
 
