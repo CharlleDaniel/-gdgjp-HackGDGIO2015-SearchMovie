@@ -1,5 +1,6 @@
 package com.searchmovie;
 
+<<<<<<< HEAD
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -21,4 +22,10 @@ public class Sinopse extends Activity {
 
 
     }
+=======
+/**
+ * Created by CharlleNot on 30/05/2015.
+ */
+public class Sinopse {
+>>>>>>> origin/master
 }

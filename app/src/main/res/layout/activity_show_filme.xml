@@ -1,7 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".showFilme"
+=======
+    tools:context=".MainActivity"
+>>>>>>> origin/master
     android:background="#ffffffff"
     android:id="@+id/rlcontainer">
 
@@ -13,7 +17,10 @@
         android:clickable="true"
         android:onClick="backIntent">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +104,11 @@
 
     <Button
         android:layout_width="90dp"
+<<<<<<< HEAD
         android:layout_height="44dp"
+=======
+        android:layout_height="45dp"
+>>>>>>> origin/master
         android:text="Avaliar"
         android:id="@+id/avaliar"
         android:layout_alignBottom="@+id/sinopse"

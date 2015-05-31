@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".showFilme"
+=======
+>>>>>>> origin/master
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:id="@+id/llContainer">
 
@@ -42,6 +45,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+            android:text="Vincent Vega (John Travolta) e Jules Winnfield (Samuel L. Jackson) são dois assassinos profissionais trabalham fazendo cobranças para Marsellus Wallace (Ving hames),um poderosos gângster. Vega é forçado a sair com a garota do chefe,temendo passar dos limites; enquanto isso, o pugilista Butch Coolidge (Bruce Willis) se mete em apuros por ganhar luta que deveria perder."
+>>>>>>> origin/master
             android:id="@+id/campSinopse"
             android:layout_below="@+id/relativeLayout5"
             android:layout_alignParentLeft="true"
