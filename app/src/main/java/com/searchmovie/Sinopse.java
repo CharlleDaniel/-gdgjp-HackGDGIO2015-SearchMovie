@@ -16,6 +16,7 @@ public class Sinopse extends Activity{
         campSinopse=(TextView)findViewById(R.id.campSinopse);
         filme=showFilme.filme;
 
+        // adiciona a sinopse no campo de texto da tela sinopse
         campSinopse.setText(filme.getSinopseDoFilme());
 
     }
