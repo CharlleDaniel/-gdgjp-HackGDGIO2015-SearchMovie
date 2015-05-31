@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.searchmovie" >
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cinema"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".showFilme"
+            android:label="MeuFilme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Avaliar"
+            android:label="Avaliar" >
+
+        </activity>
+
+    </application>
+
+</manifest>
